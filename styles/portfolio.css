@@ -17,6 +17,9 @@
 .dark-2{
     color: #474747;
 }
+.text-center{
+    text-align: center;
+}
 
 .btn-primary{
     background-color: #FD6E0A;
@@ -65,10 +68,9 @@ nav ul li{
     list-style: none;
     margin-right: 51px;
 }
-nav ul a{
+nav  li a{
     text-decoration: none;
     font-size: 20px;
-    color: 
 }
 .banner{
     display: flex;
@@ -106,3 +108,58 @@ main{
 .item-description{
     font-weight: 600;
 }
+
+.what-title{
+    font-size: 35px;
+    text-align: center;
+    margin-top: 80px;
+}
+.skill-description{
+    display: flex;
+}
+.skill{
+    padding: 30px;
+    box-shadow: 0 px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+}
+
+.skills-container{
+    display: flex;
+    gap: 24px;
+    padding: 30px;
+}
+
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+
+#ddc{
+    margin-top: 130px;
+    margin: 0 auto;
+}
+.resume-download-btn{
+    margin-top: 50px;
+}
+
+.footer-design{
+    margin-top: 130px;
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+.footer-column{
+    width: 50%;
+}
+
+footer input[type="text"], footer input[type="email"], footer textarea{
+    height:64px;
+    border-radius: 5px;
+    background-color: #fff;
+    display: block;
+    width: 100%;
+    font-size: 17px;
+    margin-bottom: 24px;
+    padding: 0px 20px;
+}
+
